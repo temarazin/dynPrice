@@ -1,0 +1,33 @@
+body {
+    font: 14px Arial, Verdana;
+}
+
+table {
+    background-color: #f0f8ff;
+    border-collapse: collapse;
+}
+
+input {
+    width:40px;
+}
+
+table tr td {
+    border: 1px solid #c0c8cc;
+    min-width: 60px;
+}
+
+table tr:nth-child(2n) {
+    background-color: #fff8f0;
+}
+
+.dp-quality {
+    cursor: pointer;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.dp-total {
+    text-align:right;
+    font-weight: bold;
+}
